@@ -1,0 +1,53 @@
+{% extends 'landing/si_base.html' %}
+
+{% block headtitle %}
+    {{ Article.title }}
+{% endblock %}
+
+{% block date %}
+    {{ Article.date }}
+{% endblock %}
+
+{% block title %}
+    {{ Article.title }}
+{% endblock %}
+
+{% block content %}
+    {{ Article.text }}
+{% endblock %}
+
+{% block prev_post %}
+ <a class="copy" href="/article/{{ Article.prev }}">
+	<div class="display-t">
+		<div class="display-tc">
+			<div>
+				<span>{{ Article.prev_title }}</span>
+                <h2>{{ Article.prev_pres_text }}</h2>
+            </div>
+        </div>
+    </div>
+ </a>
+{% endblock %}
+
+{% block next_post %}
+<a class="copy" href="/article/{{ Article.next }}">
+	<div class="display-t">
+		<div class="display-tc">
+			<div>
+				<span>{{ Article.next_title }}</span>
+                <h2>{{ Article.next_pres_text }}</h2>
+            </div>
+        </div>
+    </div>
+</a>
+{% endblock %}
+
+
+
+
+
+
+{% block copy %}
+    &copy; Storm B®øde. All Rights Reserved
+{% endblock %}
+

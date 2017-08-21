@@ -1,0 +1,47 @@
+{% extends 'landing/base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+Blog
+{% endblock %}
+
+{% block leftside %}
+<div id="fh5co-aside" style="background-image: url({% static 'images/image_1.jpg' %})">
+    <div class="overlay"></div>
+        <nav role="navigation">
+			<ul>
+                <li><a href="/"><i class="icon-home"></i></a></li>
+			</ul>
+		</nav>
+	<div class="featured">
+		<span>
+            Bigraphy
+        </span>
+		<h2>
+            I'm Danila Smolyakov, BackEnd programmer at<br>
+            <a href="">Storm B®øde</a>
+        </h2>
+	</div>
+</div>
+{% endblock %}
+
+{% block content %}
+{% for x in Articles %}
+<div class="fh5co-entry padding">
+    <img src="{% static 'images/project-5.jpg' %}" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+    <div>
+        <span class="fh5co-post-date">{{ x.date }}</span>
+        <h2><a href="article/{{ x.id }}">{{ x.title }}</a></h2>
+        <p>{{ x.present_page_text }}</p>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}
+
+{% block footer %}
+<footer>
+	<div>
+        &copy; Storm B®øde. All Rights Reserved
+    </div>
+</footer>
+{% endblock %}
