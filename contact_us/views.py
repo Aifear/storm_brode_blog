@@ -6,7 +6,7 @@ from .models import ContactForm
 # Create your views he
 
 
-def contactView(request):
+"""def contactView(request):
 	if request.method == 'POST':
 		form = ContactForm(request.POST)
 		#Если форма заполнена корректно, сохраняем все введённые пользователем значения
@@ -30,4 +30,7 @@ def contactView(request):
 		#Заполняем форму
 		form = ContactForm()
 	#Отправляем форму на страницу
-	return render(request, 'contact_us/index.html', {'form': form})
+	return render(request, 'contact_us/index.html', {'form': form})"""
+
+def contactView(request):
+    send_mail('subj', 'message', 'kimolav@yandex.ru', 'smit.chan.you@gmail.com')
