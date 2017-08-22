@@ -124,6 +124,6 @@ STATIC_URL = '/static/'
 TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),)
 
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'https://www.pythonanywhere.com'
-EMAIL_HOST_USER = 'stormbrode'
+EMAIL_HOST = 'smpt.gmail.com'
+EMAIL_HOST_USER = 'smit.chan.you@gmail.com'
 EMAIL_HOST_PASSWORD = 'SloniKsV79'
