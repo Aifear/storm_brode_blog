@@ -130,3 +130,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'smit.chan.you@gmail.com'
 EMAIL_HOST_PASSWORD = 'SloniKsV79'
 EMAIL_PORT = 587
+
+MANAGERS = (('Azura','kimolav@yandex.ru'))
