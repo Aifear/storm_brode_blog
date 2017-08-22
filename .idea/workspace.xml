@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a64530f5-4a6b-4215-a29a-3174b15eda11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySite/settings.py" afterPath="$PROJECT_DIR$/MySite/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact_us/views.py" afterPath="$PROJECT_DIR$/contact_us/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact_us/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="68" lean-forward="false" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+            <state relative-caret-position="391">
+              <caret line="23" column="102" lean-forward="false" selection-start-line="23" selection-start-column="102" selection-end-line="23" selection-end-column="102" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MySite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="130" column="16" lean-forward="false" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
+            <state relative-caret-position="1084">
+              <caret line="131" column="24" lean-forward="false" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -113,8 +113,8 @@
         <option value="$PROJECT_DIR$/MySite/urls.py" />
         <option value="$PROJECT_DIR$/contact_us/models.py" />
         <option value="$PROJECT_DIR$/contact_us/urls.py" />
-        <option value="$PROJECT_DIR$/contact_us/views.py" />
         <option value="$PROJECT_DIR$/MySite/settings.py" />
+        <option value="$PROJECT_DIR$/contact_us/views.py" />
       </list>
     </option>
   </component>
@@ -696,6 +696,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1084">
+          <caret line="131" column="24" lean-forward="false" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contact_us/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -708,19 +716,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact_us/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="68" lean-forward="false" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        <state relative-caret-position="391">
+          <caret line="23" column="102" lean-forward="false" selection-start-line="23" selection-start-column="102" selection-end-line="23" selection-end-column="102" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="130" column="16" lean-forward="false" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>

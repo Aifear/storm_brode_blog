@@ -21,7 +21,7 @@ def contactView(request):
 			if copy:
 				recipients.append(sender)
 			try:
-				send_mail(subject, message, 'smit.chan.you@gmail.com', recipients)
+				send_mail(subject, message, 'smit.chan.you@gmail.com', recipients, fail_silently=False)
 			except BadHeaderError: #Защита от уязвимости
 				return HttpResponse('Invalid header found')
 			#Переходим на другую страницу, если сообщение отправлено
