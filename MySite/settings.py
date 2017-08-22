@@ -127,3 +127,5 @@ EMAIL_USE_TLS = True
 EMAIL_HOST = 'smpt.gmail.com'
 EMAIL_HOST_USER = 'smit.chan.you@gmail.com'
 EMAIL_HOST_PASSWORD = 'SloniKsV79'
+EMAIL_PORT = 587
+ACCOUNT_EMAIL_VERIFICATION = 'none'
