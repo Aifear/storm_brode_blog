@@ -34,6 +34,7 @@ Blog
         <span class="fh5co-post-date">{{ x.date }}</span>
         <h2><a href="article/{{ x.id }}">{{ x.title }}</a></h2>
         <p>{{ x.present_page_text }}</p>
+        <h6 style="color:#7F8F9D; margin-left: 10px">Article created by "{{ x.user }}"</h6>
     </div>
 </div>
 {% endfor %}
