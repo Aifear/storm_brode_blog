@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a64530f5-4a6b-4215-a29a-3174b15eda11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact_us/views.py" afterPath="$PROJECT_DIR$/contact_us/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySite/settings.py" afterPath="$PROJECT_DIR$/MySite/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact_us/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MySite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="133" column="30" lean-forward="false" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+            <state relative-caret-position="98">
+              <caret line="131" column="16" lean-forward="false" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -113,8 +113,8 @@
         <option value="$PROJECT_DIR$/MySite/urls.py" />
         <option value="$PROJECT_DIR$/contact_us/models.py" />
         <option value="$PROJECT_DIR$/contact_us/urls.py" />
-        <option value="$PROJECT_DIR$/MySite/settings.py" />
         <option value="$PROJECT_DIR$/contact_us/views.py" />
+        <option value="$PROJECT_DIR$/MySite/settings.py" />
       </list>
     </option>
   </component>
@@ -125,10 +125,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="159" />
-    <option name="y" value="152" />
+    <option name="x" value="2" />
+    <option name="y" value="385" />
     <option name="width" value="1210" />
-    <option name="height" value="536" />
+    <option name="height" value="319" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -256,7 +256,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="159" y="152" width="1210" height="536" extended-state="0" />
+    <frame x="2" y="385" width="1210" height="319" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32328308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -686,14 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MySite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="133" column="30" lean-forward="false" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact_us/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -721,6 +713,14 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="131" column="16" lean-forward="false" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
