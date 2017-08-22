@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from django.core.mail import send_mail, BadHeaderError, mail_managers
 from .models import ContactForm
+import smtplib
 # Create your views he
 
 
@@ -33,5 +34,8 @@ from .models import ContactForm
 	return render(request, 'contact_us/index.html', {'form': form})"""
 
 def contactView(request):
-    #end_mail('subj', 'message', 'smit.chan.you@gmail.com', ['kimolav@yandex.ru'])
-    mail_managers('Ghbdtn','Hello')
+    smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
+    smtpObj.starttls()
+    smtpObj.login('smit.chan.you@gmail.com', 'SloniKsV79')
+    smtpObj.sendmail("justkiddingboat@gmail.com", "kimolav@yandex.ru", "go to bed!")
+    smtpObj.quit()
