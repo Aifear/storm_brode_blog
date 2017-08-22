@@ -33,4 +33,4 @@ from .models import ContactForm
 	return render(request, 'contact_us/index.html', {'form': form})"""
 
 def contactView(request):
-    send_mail('subj', 'message', 'kimolav@yandex.ru', ['smit.chan.you@gmail.com'])
+    send_mail('subj', 'message', 'smit.chan.you@gmail.com', ['kimolav@yandex.ru'])
