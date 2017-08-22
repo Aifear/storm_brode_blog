@@ -1,4 +1,4 @@
-{% extends 'landing/si_base.html' %}
+﻿{% extends 'landing/si_base.html' %}
 
 {% block headtitle %}
     {{ Article.title }}
@@ -14,7 +14,7 @@
 
 {% block content %}
 
-<pre style="border: 0px solid #333333; white-space: pre-wrap"> <h4 style="color:#7F8F9D">{{ Article.text }}</h4></pre>
+<pre style="border: 0px solid #333333; white-space: pre-wrap; margin-top: 10px"> <h4 style="color:#7F8F9D">{{ Article.text }}</h4></pre>
 <h6 style="color:#7F8F9D; margin-left: 20px">Article created by "{{ Article.user }}"</h6>
 
 {% endblock %}
