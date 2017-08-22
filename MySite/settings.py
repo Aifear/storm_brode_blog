@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'landing.apps.LandingConfig',
+    'contact_us'
 ]
 
 MIDDLEWARE = [
@@ -121,3 +122,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),)
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'https://www.pythonanywhere.com'
+EMAIL_HOST_USER = 'stormbrode'
+EMAIL_HOST_PASSWORD = 'SloniKsV79'
