@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, render_to_response
 from django.http import HttpResponse
-
+from django.contrib import auth
 
 def login(request):
     args={}
