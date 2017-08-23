@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a64530f5-4a6b-4215-a29a-3174b15eda11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/views.py" afterPath="$PROJECT_DIR$/login/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/templates/landing/base.html" afterPath="$PROJECT_DIR$/landing/templates/landing/base.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/landing/templates/landing/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+              <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -117,8 +117,8 @@
         <option value="$PROJECT_DIR$/login/templates/login/logout.html" />
         <option value="$PROJECT_DIR$/login/templates/login/base.html" />
         <option value="$PROJECT_DIR$/login/templates/login/login.html" />
-        <option value="$PROJECT_DIR$/landing/templates/landing/base.html" />
         <option value="$PROJECT_DIR$/login/views.py" />
+        <option value="$PROJECT_DIR$/landing/templates/landing/base.html" />
       </list>
     </option>
   </component>
@@ -677,6 +677,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/login/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/login/templates/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -688,18 +698,8 @@
     <entry file="file://$PROJECT_DIR$/landing/templates/landing/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
