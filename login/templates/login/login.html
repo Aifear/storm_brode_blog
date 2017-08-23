@@ -1,7 +1,8 @@
 {% extends 'login/base.html' %}
 
 {% block login %}
-    <from action="/login/" method="post">
+    <div>
+    <from action="/login" method="POST">
         <label for="username">Name</label>
         <input type="text" name="username" id="username">
         <label for="password">Password</label>
@@ -9,6 +10,7 @@
         {% if login_error %}
             <label class="error">{{ error }}</label>
         {% endif %}
-        <input class="button" type="submit" value="login">
+        <input class="" type="submit" value="login">
     </from>
+    </div>
 {% endblock %}

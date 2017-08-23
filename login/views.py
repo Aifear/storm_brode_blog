@@ -13,10 +13,10 @@ def login(request):
             return redirect('/')
         else:
             args['login_error'] = 'User is not defined'
-            return render(request, 'login/login.html', args)
+            return render_to_response('login/login.html', args)
 
     else:
-        return render(request, 'login/login.html', args)
+        return render_to_response('login/login.html', args)
 
 
 def logout(request):
