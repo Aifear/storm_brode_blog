@@ -21,6 +21,7 @@
       <list>
         <option value="$MODULE_DIR$/landing/templates" />
         <option value="$MODULE_DIR$/contact_us/templates" />
+        <option value="$MODULE_DIR$/login/templates" />
       </list>
     </option>
   </component>

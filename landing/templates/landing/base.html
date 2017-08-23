@@ -20,7 +20,17 @@
 	<![endif]-->
 	</head>
 	<body>
-		
+
+    <ul class="login">
+    {% if username %}
+        <li><p>Sign out {{ username }}</p></li>
+    {% else %}
+        <li>
+            <p><a href="/registration">Sing in</a> or <a href="/login">Sing up</a></p>
+        </li>
+    {% endif %}
+    </ul>
+
 	<div class="fh5co-loader"></div>
 	<div id="page">
 

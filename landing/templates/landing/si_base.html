@@ -20,8 +20,8 @@
 	</head>
 	<body class="single">
 	<div class="fh5co-loader"></div>
-	<div id="page">
 
+    <div id="page">
 		<div id="fh5co-aside" style="height:440px; background-image: url({% static 'images/forest.jpg' %}); data-stellar-background-ratio="0.5"">
 			<div class="overlay"></div>
 			<nav role="navigation">
@@ -35,9 +35,10 @@
 				<h2>{% block title %}{% endblock %}</h2>
 			</div>
 		</div>
-
 		<div id="fh5co-main-content">
-			<div class="fh5co-post"> 
+
+
+            <div class="fh5co-post">
 				<div class="fh5co-entry">
 					{% block content %}
                     {% endblock %}

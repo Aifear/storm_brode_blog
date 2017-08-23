@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   position: fixed;
   height: 100%;
-  z-index: 555;
+  z-index: 1001;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -882,4 +882,21 @@ pre {
      white-space: -pre-wrap;      /* Opera 4-6 */
      white-space: -o-pre-wrap;    /* Opera 7 */
      word-wrap: break-word;       /* Internet Explorer 5.5+ поддерживается в IE, Safari, и Firefox 3.1.*/
+}
+
+.login {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  text-align: right;
+  background-color: #737373;
+  margin: 0;
+  border: 0px solid transparent;
+  padding-right: 25px;
+  color: #dddddd;
+  z-index: 1000;
+}
+
+.login > ul > li {
+  list-style-type: none;
 }

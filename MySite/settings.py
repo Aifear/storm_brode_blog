@@ -25,7 +25,7 @@ SECRET_KEY = 'yq4_dymv6d#y3xj3d8=^_(9nbuhlc6=9qb%m5z-!+efaxvit@*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['stormbrode.pythonanywhere.com']
+ALLOWED_HOSTS = ['stormbrode.pythonanywhere.com','*']
 
 
 # Application definition
@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'landing.apps.LandingConfig',
-    'contact_us'
+    'contact_us',
+    'login'
 ]
 
 MIDDLEWARE = [
