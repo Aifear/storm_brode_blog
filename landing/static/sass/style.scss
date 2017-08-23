@@ -142,7 +142,8 @@ a {
 	&:hover, &:active, &:focus {
 		color: $brand-primary;
 		outline: none;
-		text-decoration: none;
+		text-decoration: none ;
+		font-style: italic;
 	}
 }
 p, ul, ol {

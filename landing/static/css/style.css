@@ -55,7 +55,8 @@ a {
 a:hover, a:active, a:focus {
   color: #FC5185;
   outline: none;
-  text-decoration: none;
+  text-decoration: underline;
+  font-style: italic;
 }
 
 p, ul, ol {
@@ -900,3 +901,4 @@ pre {
 .login > ul > li {
   list-style-type: none;
 }
+
