@@ -1,0 +1,38 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Форма входа</title>
+	<link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<body>
+
+  <form method="post" action="{% url 'login' %}" class="login">
+    {% csrf_token %}
+    <p>
+      <label for="login">Логин:</label>
+      <input type="text" name="username" id="login" value="">
+    </p>
+
+    <p>
+      <label for="password">Пароль:</label>
+      <input type="password" name="password" id="password" value="">
+    </p>
+
+
+
+    <p class="login-submit">
+        <button type="submit" class="login-button"><input type="submit" value="Log in"></button>
+    </p>
+      {% if login_error %}
+      <p id="def" class="forgot-password">User is not defined</p>
+  {% endif %}
+    <p class="forgot-password"><a href="/">Забыл пароль?</a></p>
+
+
+  </form>
+
+</body>
+</html>

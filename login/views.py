@@ -16,10 +16,10 @@ def login(request):
             return redirect('/')
         else:
             args['login_error'] = 'User is not defined'
-            return render(request, 'login/login.html', args)
+            return render(request, 'login/index.html', args)
 
     else:
-        return render(request, 'login/login.html', args)
+        return render(request, 'login/index.html', args)
 
 
 def logout(request):
