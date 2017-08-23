@@ -1,11 +1,11 @@
 from django.shortcuts import render, redirect, render_to_response
 from django.http import HttpResponse
 from django.contrib import auth
-from django.core.context_processors import csfr
+from django.core.context_processors import csrf
 
 def login(request):
     args={}
-    args.update(csfr(request))
+    args.update(csrf(request))
     if request.POST:
         username = request.POST.get('username', '')
         password = request.POST.get('password', '')
