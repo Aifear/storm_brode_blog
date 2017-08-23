@@ -2,15 +2,15 @@
 
 {% block login %}
     <div>
-    <from action="/login" method="POST">
+    <from method="post" action="{% url 'login' %}">
         <label for="username">Name</label>
         <input type="text" name="username" id="username">
         <label for="password">Password</label>
         <input type="password" name="password" id="password">
         {% if login_error %}
-            <label class="error">{{ error }}</label>
+            <label>{{ login_error }}</label>
         {% endif %}
-        <input type="submit" value="login">
+        <input type="submit" value="Ok">
     </from>
     </div>
 {% endblock %}

@@ -5,8 +5,10 @@ from django.contrib import auth
 def login(request):
     args={}
     if request.POST:
+        return HttpResponse('123')
         username = request.POST.get('username', '')
         password = request.POST.get('password', '')
+        print (username, password)
         user = auth.authenticate (username=username, password=password)
         if user is not None:
             auth.Login(request, user)
