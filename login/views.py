@@ -18,6 +18,7 @@ def login(request):
             return render_to_response('login/login.html', args)
 
     else:
+        return redirect('/admin')
         return render_to_response('login/login.html', args)
 
 
