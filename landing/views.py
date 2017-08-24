@@ -6,7 +6,7 @@ from django.contrib import auth
 
 def landing(request):
     Articles = Article.objects.all()
-    return render(request, 'landing/index.html', {'Articles':Articles,
+    return render(request, 'landing/index.html', {'Articles':Articles.order_by('-date'),
                                                   'username':auth.get_user(request).username,
                                                   'user':auth.get_user(request)})
 
