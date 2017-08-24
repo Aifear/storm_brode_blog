@@ -23,11 +23,12 @@
 
     <ul class="login">
     {% if username  %}
+        <li style="margin-right: 25px;"><a href="/contact">Contact us</a></li>
         {% if user.is_staff %}
         <li  style="margin-right: 40px;"><a href="/admin">Admin Panel</a></li>
         {% endif %}
         <li>({{ username }}) <a href="/logout">Logout </a></li>
-    {% else %}
+        {% else %}
         <li>
             <p><a href="/registration">Sing up</a> or <a href="/login">Sing in</a></p>
         </li>
