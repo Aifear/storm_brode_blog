@@ -4,24 +4,32 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Форма входа</title>
+	<title>Sign in</title>
 	<link rel="stylesheet" href="{% static 'login/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'login/css/icomoon.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
 </head>
 <body>
+
+<nav role="navigation">
+    <ul><a href="/" id="login-ico">
+        <li class="home-icon">
+                <i class="icon-home"></i>
+        </li></a>
+    </ul>
+</nav>
 
   <form method="post" action="{% url 'login' %}" class="login">
     {% csrf_token %}
     <p>
-      <label for="login">Логин:</label>
-      <input type="text" name="username" id="login" value="">
+      <label for="login">Login:</label>
+      <input type="text" name="username" autofocus id="login" value="">
     </p>
 
     <p>
-      <label for="password">Пароль:</label>
+      <label for="password">Password:</label>
       <input type="password" name="password" id="password" value="">
     </p>
-
-
 
     <p class="login-submit">
         <button type="submit" class="login-button"><input type="submit" value="Log in"></button>
@@ -29,7 +37,7 @@
       {% if login_error %}
       <p id="def" class="forgot-password">User is not defined</p>
   {% endif %}
-    <p class="forgot-password"><a href="/">Забыл пароль?</a></p>
+    <p class="forgot-password"><a href="/">Forget password?</a></p>
 
 
   </form>

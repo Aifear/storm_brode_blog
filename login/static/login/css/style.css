@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,6 +34,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  padding: 15px;
 }
 
 #header {
@@ -54,8 +63,9 @@ table {
 }
 
 body {
-  background: #373737 url("../img/bg.png") 0 0 repeat;
+  background: #010100 url("../img/bg.png") 0 0 repeat;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body {
@@ -278,4 +288,41 @@ label {
 
 #def {
     color: red;
+}
+
+.home-icon{
+  position: static;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+  font-size: 14px;
+}
+
+ #login-ico {
+   color: rgba(255, 255, 255, 0.7);
+   background: rgba(0, 0, 0, 0.2);
+   border-radius: 50%;
+   height: 30px;
+   width: 30px;
+   display: block;
+   text-align: center;
+   line-height: 30px;
+   text-decoration: none;
+ }
+
+a:hover {
+   color: #fff;
+   text-decoration: underline;
+ }
+#login-ico :hover, .home-icon :hover {
+   color: #000;
+   background: #fff;
+   border-radius: 50%;
+   height: 30px;
+   width: 30px;
+   display: block;
+   text-align: center;
+   line-height: 30px;
+   text-decoration: underline;
 }

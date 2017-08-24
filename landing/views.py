@@ -12,4 +12,6 @@ def landing(request):
 
 def single(request, question_id):
     article = get_object_or_404(Article, pk=question_id)
-    return render(request, 'landing/single.html', {'Article':article})
+    return render(request, 'landing/single.html', {'Article':article,
+                                                   'username': auth.get_user(request).username,
+                                                   'user': auth.get_user(request)})

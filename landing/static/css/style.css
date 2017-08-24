@@ -55,8 +55,7 @@ a {
 a:hover, a:active, a:focus {
   color: #FC5185;
   outline: none;
-  text-decoration: underline;
-  font-style: italic;
+  text-decoration: none;
 }
 
 p, ul, ol {
@@ -330,7 +329,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   position: fixed;
   height: 100%;
-  z-index: 1001;
+  z-index: 555;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -877,6 +876,9 @@ footer {
 
 /*# sourceMappingURL=style.css.map */
 
+
+/*# sourceMappingURL=style.css.map */
+
 pre {
      white-space: pre-wrap;       /* css-3 */
      white-space: -moz-pre-wrap;  /* Mozilla, с 1999 */
@@ -898,16 +900,37 @@ pre {
   z-index: 1000;
 }
 
-.login > ul > li {
+.login li {
   display: inline;
   list-style-type: none;
   margin-right: 25px;
 }
-ul.login li{
-  display: inline;
-  margin-right: 25px;
+.login li:last-child{
+  margin-right: 0px;
 }
-ul.login {
-  display: inline;
+.login li:last-child a{
+  color: rgba(255, 255, 255, 0.7);
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+}
+.login li:last-child a:hover{
+  text-decoration: none;
+  font-style: normal;
+  color: #333;
+  background: #fff;
 }
 
+.login li a{
+  color: #FC5185;
+}
+.login li a:hover{
+  outline: none;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.copy a:hover {
+  text-decoration: none;
+}
