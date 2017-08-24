@@ -22,8 +22,11 @@
 	<body>
 
     <ul class="login">
-    {% if username %}
-        <li><p>({{ username }}) <a href="/logout">Logout </a></p></li>
+    {% if username  %}
+        {% if user.is_staff %}
+        <li  style="margin-right: 40px;"><a href="/admin">Admin Panel</a></li>
+        {% endif %}
+        <li>({{ username }}) <a href="/logout">Logout </a></li>
     {% else %}
         <li>
             <p><a href="/registration">Sing up</a> or <a href="/login">Sing in</a></p>

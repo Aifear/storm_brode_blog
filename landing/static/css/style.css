@@ -899,6 +899,13 @@ pre {
 }
 
 .login > ul > li {
+  display: inline;
   list-style-type: none;
+}
+ul.login li{
+  display: inline;
+}
+ul.login {
+  display: inline;
 }
 
