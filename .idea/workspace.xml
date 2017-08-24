@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a64530f5-4a6b-4215-a29a-3174b15eda11" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySite/settings.py" afterPath="$PROJECT_DIR$/MySite/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySite/urls.py" afterPath="$PROJECT_DIR$/MySite/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact_us/views.py" afterPath="$PROJECT_DIR$/contact_us/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/templates/landing/base.html" afterPath="$PROJECT_DIR$/landing/templates/landing/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/static/css/style.css" afterPath="$PROJECT_DIR$/landing/static/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="936" column="0" lean-forward="true" selection-start-line="936" selection-start-column="0" selection-end-line="936" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MySite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -33,17 +42,17 @@
         <entry file="file://$PROJECT_DIR$/MySite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="131" column="18" lean-forward="true" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="42" />
+              <caret line="131" column="54" lean-forward="false" selection-start-line="131" selection-start-column="54" selection-end-line="131" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact_us/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="21" column="85" lean-forward="false" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -51,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/landing/templates/landing/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="272">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#head#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#head#0;n#html#0;n#!!top" expanded="true" />
@@ -124,14 +133,14 @@
         <option value="$PROJECT_DIR$/login/static/login/css/style.css" />
         <option value="$PROJECT_DIR$/login/templates/login/login.html" />
         <option value="$PROJECT_DIR$/landing/templates/landing/index.html" />
-        <option value="$PROJECT_DIR$/landing/static/css/style.css" />
         <option value="$PROJECT_DIR$/landing/views.py" />
         <option value="$PROJECT_DIR$/landing/templates/landing/si_base.html" />
         <option value="$PROJECT_DIR$/chat/urls.py" />
         <option value="$PROJECT_DIR$/MySite/urls.py" />
-        <option value="$PROJECT_DIR$/MySite/settings.py" />
-        <option value="$PROJECT_DIR$/contact_us/views.py" />
         <option value="$PROJECT_DIR$/landing/templates/landing/base.html" />
+        <option value="$PROJECT_DIR$/MySite/settings.py" />
+        <option value="$PROJECT_DIR$/landing/static/css/style.css" />
+        <option value="$PROJECT_DIR$/contact_us/views.py" />
       </list>
     </option>
   </component>
@@ -141,9 +150,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="34" />
-    <option name="y" value="7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="157" />
+    <option name="y" value="8" />
     <option name="width" value="1210" />
     <option name="height" value="556" />
   </component>
@@ -198,14 +207,14 @@
               <item name="MySite" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySite" type="462c0819:PsiDirectoryNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySite" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySite" type="462c0819:PsiDirectoryNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySite" type="b2602c69:ProjectViewProjectNode" />
@@ -283,7 +292,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="7" width="1210" height="556" extended-state="1" />
+    <frame x="157" y="8" width="1210" height="556" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24292845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -536,14 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landing/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="853" column="0" lean-forward="true" selection-start-line="853" selection-start-column="0" selection-end-line="853" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/landing/templates/landing/si_base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -609,15 +610,7 @@
     <entry file="file://$PROJECT_DIR$/MySite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="131" column="18" lean-forward="true" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="42" />
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -630,23 +623,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact_us/views.py">
+    <entry file="file://$PROJECT_DIR$/MySite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="131" column="54" lean-forward="false" selection-start-line="131" selection-start-column="54" selection-end-line="131" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/landing/templates/landing/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="272">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="936" column="0" lean-forward="true" selection-start-line="936" selection-start-column="0" selection-end-line="936" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact_us/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="85" lean-forward="false" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>

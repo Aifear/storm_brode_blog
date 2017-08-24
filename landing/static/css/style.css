@@ -934,3 +934,8 @@ pre {
 .copy a:hover {
   text-decoration: none;
 }
+
+body, a:hover {
+  cursor: url('../fonts/cur.cur'),
+  progress !important;
+}
