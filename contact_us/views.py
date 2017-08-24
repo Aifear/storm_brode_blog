@@ -18,8 +18,8 @@ def contactView(request):
             try:
                 send_mail(subject,
                           message,
-                          'smit.chan.you@gmail.com',
-                          ['smit.chan.you@gmail.com'], fail_silently=True)
+                          'storm.brodre@gmail.com',
+                          ['storm.brodre@gmail.com'], fail_silently=False)
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('/')
