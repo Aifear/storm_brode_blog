@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'landing.apps.LandingConfig',
     'contact_us.apps.ContactUsConfig',
-    'login.apps.LoginConfig'
+    'login.apps.LoginConfig',
+    'ipconfig.apps.IpconfigConfig'
 ]
 
 MIDDLEWARE = [
