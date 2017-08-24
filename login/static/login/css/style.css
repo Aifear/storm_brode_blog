@@ -31,7 +31,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-
+body, a:hover {
+  cursor: url('../fonts/cur.cur'),
+  progress !important;
+}
 body {
   line-height: 1;
   padding: 15px;

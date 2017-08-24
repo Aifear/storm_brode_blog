@@ -15,7 +15,8 @@
     {% if username  %}
         <li style="margin-right: 25px;"><a href="/contact">Contact us</a></li>
         {% if user.is_staff %}
-        <li  style="margin-right: 40px;"><a href="/admin">Admin Panel</a></li>
+        <li  style="margin-right: 25px;"><a href="/admin">Admin Panel</a></li>
+        <li  style="margin-right: 25px;"><a href="/messages">Messages</a></li>
         {% endif %}
         <li>({{ username }}) <a href="/logout">Logout </a></li>
         {% else %}

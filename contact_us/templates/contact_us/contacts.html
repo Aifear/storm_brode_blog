@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>messages</title>
+</head>
+<body>
+<a href="/"><button value="Back">Home</button></a>
+{% for x in Contacts %}
+    <hr>
+    <div>
+    Subject: {{ x.sub }}<br>
+    Name: {{ x.name }}<br>
+    E-Mail: {{ x.sender }}<br>
+    Message: {{ x.message }}<br>
+    </div>
+    <hr>
+{% endfor %}
+</body>
+</html>
