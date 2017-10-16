@@ -1,0 +1,11 @@
+1) Folder
+
+2) Update
+git pull
+
+3)
+git add --all
+git commit -m "Name Comment"
+git push
+login: Aifear
+password: SloniKsV79
